@@ -33,7 +33,7 @@ header .row2 p{
     text-transform: uppercase;
     font-size: 50px;
     color: #262626;
-    margin: 10px 0;
+    margin: 10px -14px;
     
 }
 header .row2 a{
@@ -55,6 +55,7 @@ header .row2 input{
     font-size: 13px;
     background: none;
     margin-top: 30px;
+    margin-left: 30px;
     display: inline-block;
 }
 header .row2 .search_icon{
@@ -78,7 +79,7 @@ header .row2 .search_icon a{
 .content_top .row2 h2{
     font-size: 36px;
     color: #fff;
-    margin: 20px 0px;
+    margin: 20px 14px;
     font-weight: 300;
 }
 .content_top .row2 figure{
@@ -87,9 +88,11 @@ header .row2 .search_icon a{
 .content_top .row2 img{
     padding: 10px;
 }
-.content_top .row2 li{
+
+.content_top .row2 ul li{
+    margin: 10px 0 0 10px;
+    list-style-type: disc;
     color: #fff;
-    margin-top:7px;
 }
 .content_top .row2 a{
     color: #ff9601;
@@ -172,4 +175,10 @@ footer .icon .item2{
 }
 footer .icon .item3{
     background-position: -240px 0;
+}
+
+.content_top .row1 .background_top{
+    background-color: #fff;
+    height: 500px;
+    margin-top: 50px;
 }
