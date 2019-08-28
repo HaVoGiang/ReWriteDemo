@@ -25,7 +25,7 @@ header .row1 nav li a{
 }
 header .row2{
     width: 100%;
-    min-height: 101px;
+    min-height: 90px;
     background: url(../images/row2-tail.gif) left top repeat-x #fff;
 }
 header .row2 p{
@@ -64,4 +64,112 @@ header .row2 .search_icon{
 }
 header .row2 .search_icon a{
     color:rgba(255,255,255,0);
+}
+.content_top {
+    width: 100%;
+    height: 876px;
+    background: url(../images/bg-top.jpg) center top no-repeat;
+}
+.content_top .row1{
+    width: 100%;
+    height: 576px;
+    background: url(../images/bg-top.jpg) center top no-repeat;
+}
+.content_top .row2 h2{
+    font-size: 36px;
+    color: #fff;
+    margin: 20px 0px;
+    font-weight: 300;
+}
+.content_top .row2 figure{
+    background-color: #fff;
+}
+.content_top .row2 img{
+    padding: 10px;
+}
+.content_top .row2 li{
+    color: #fff;
+    margin-top:7px;
+}
+.content_top .row2 a{
+    color: #ff9601;
+    text-decoration: none;
+    font-size: 25px;
+}
+.content_top .row2 a:hover{
+    color: #fff;
+}
+.content_bot {
+    width: 100%;
+    background: url(../images/bg-bot-tail.gif) center top repeat-x #fff;
+    padding: 30px 0 55px;
+}
+.content_bot h2{
+    font-size: 36px;
+}
+.content_bot .link{
+    color: #ff9601;
+}
+.content_bot .link:hover{
+    text-decoration: none;
+}
+.content_bot p{
+    padding: 5px 0px;
+}
+.content_bot .quote{
+    padding-left: 30px;
+    background: url(../images/quote.png) 0 3px no-repeat;
+}
+.content_bot .date{
+    color: #ff9601;
+    text-decoration: none;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 40px 0 33px;
+    background: url(../images/footer-tail.gif) center top repeat-x #fff;
+}
+.clearfix{
+    clear: both;
+}
+footer a{
+    color: #ff9601;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer .linkfooter{
+    color: #000;
+    text-decoration: none;
+}
+footer .linkfooter:hover{
+    text-decoration: underline;
+}
+
+footer .phone_num{
+    font-size: 42px;
+}
+footer .phone_num span{
+    display: inline-block;
+    font-size: 28px;
+    color: #949494;
+    padding: 12px 0px;
+}
+footer .icon a{
+    background: url(../images/social-icons.png) left top no-repeat;
+    width: 60px;
+    height: 45px;
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+footer .icon .item1{
+    background-position: -80px 0;
+}
+footer .icon .item2{
+    background-position: -160px 0;
+}
+footer .icon .item3{
+    background-position: -240px 0;
 }
